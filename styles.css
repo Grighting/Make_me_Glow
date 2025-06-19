@@ -1,3 +1,7 @@
+.flex{
+  display: flex;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -8,8 +12,10 @@ body {
 header, footer {
   background-color: #222;
   color: white;
+  flex-direction: column;
   text-align: center;
   padding: 1em 0;
+  flex-wrap: wrap;
 }
 
 main {
@@ -30,7 +36,6 @@ p {
 img {
   max-width: 100%;
   height: auto;
-  display: flex;
 }
 
 a {
@@ -60,21 +65,18 @@ video {
 
 /*css images/textes*/
   .books_container{
-    display : flex;
     height : 500px;
     justify-content : space-evenly;
     
   }
 
   .interrogation_index{
-    display : flex;
     height : 500px;
     justify-content : center;
   }
 
   .intro{
-    display: flex;
-    justify-content: center;
+    text-align: center;
   }
 
   .goal1{
@@ -82,10 +84,86 @@ video {
   }
 
   .questions_container{
-    display : flex;
     height : 500px;
     justify-content : space-evenly;
     
   }.link_contact{
     margin-top: 225px;
   }
+
+
+  .histoire{
+    width: auto;
+    justify-content : space-evenly;
+  }
+
+.réception{
+  height: 400px;
+  width: 300px;
+  margin-right: 200px;
+}
+
+.fondatrices{
+  height: 300px;
+  justify-content: flex-end;
+}
+
+.histoire_texte{
+  margin-top: 75px;
+}
+
+.objectif2{
+  justify-content: flex-end;
+}
+
+.objectif2_texte{
+  margin-top: 170px;
+}
+
+.equipe{
+  justify-content: space-around;
+}
+
+.equipe_texte{
+  margin-top: 90px;
+}
+
+.services_explication{
+  justify-content: center;
+}
+
+.formulaire_onboarding{
+   height: 400px;
+}
+
+.onboarding{
+  justify-content: space-around;
+}
+
+.onboarding_texte{
+  margin-top: 100px;
+}
+
+.client_mystère_évènement{
+  height: 400px;
+}
+
+.client_mystère{
+  justify-content: space-around;
+}
+
+.client_mystère_texte{
+  margin-top: 150px;
+}
+
+.façade_hôtel{
+  height: 400px;
+}
+
+.formation{
+  justify-content: space-around;
+}
+
+.formation_texte{
+  margin-top: 150px;
+}
