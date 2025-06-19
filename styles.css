@@ -19,7 +19,7 @@ main {
 
 h1 {
   text-align: center;
-  color: #333;
+  color: #f3eded;
 }
 
 p {
@@ -30,8 +30,7 @@ p {
 img {
   max-width: 100%;
   height: auto;
-  display: block;
-  margin: 1em auto;
+  display: flex;
 }
 
 a {
@@ -50,18 +49,43 @@ video {
 /*css navbar*/
 
 /*css header*/
-
+.logo_header{
+  margin: 1em auto;
+}
 
 /*css footer*/
+.logo_footer{
+  margin: 1em auto;
+}
 
-
-/*css images*/
-  .books_index{
-    height: 500px;
-    justify-content: flex-end;
+/*css images/textes*/
+  .books_container{
+    display : flex;
+    height : 500px;
+    justify-content : space-evenly;
+    
   }
 
   .interrogation_index{
-    height: 500px;
-    justify-content: flex-start;
+    display : flex;
+    height : 500px;
+    justify-content : center;
+  }
+
+  .intro{
+    display: flex;
+    justify-content: center;
+  }
+
+  .goal1{
+    margin-top: 225px;
+  }
+
+  .questions_container{
+    display : flex;
+    height : 500px;
+    justify-content : space-evenly;
+    
+  }.link_contact{
+    margin-top: 225px;
   }
