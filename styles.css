@@ -656,3 +656,138 @@ video {
     margin-left: 30px;
   }
 }
+
+@media screen and (max-width: 769px) {
+   
+  .responsive_body{
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  main{
+    flex-direction: column;
+  }
+
+  img,
+  video{
+    max-width: 100%;
+  }
+
+  .histoire{
+    flex-direction: column;
+  }
+
+  .fondatrices{
+    height: 0px;
+  }
+
+  
+  .objectif2{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .réception{
+    margin-left: 200px;
+    margin-top: 100px;
+  }
+
+  .objectif2_texte{
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+
+  
+  .equipe{
+    flex-direction: column-reverse;
+  }
+
+  .equipe_texte{
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .équipes{
+    margin-top: 100px;
+  }
+
+  *
+  .books_container{
+    flex-direction: column-reverse;
+  }
+
+  .books_index{
+    height: 400px;
+    width: 200px;
+    margin-left: 245px;
+  }
+
+  
+  .goal1{
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  *
+  .questions_container{
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+
+  .link_contact{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: -50px;
+  }
+
+  .interrogation_index{
+    height: 400px;
+    width: 250px;
+    margin-left: 225px;
+    margin-top: 50px;
+  }
+
+  
+  .onboarding{
+     flex-direction: column;
+     margin-top: -100px;
+  }
+
+  .formulaire_onboarding{
+    width: 300px;
+    margin-left: 195px;
+  }
+
+  
+  .client_mystère{
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  }
+
+  .client_mystère_évènement{
+    height: 400px;
+    width: 350px;
+    margin-left: 180px;
+  }
+
+  .client_mystère_texte{
+    margin-bottom: 20px;
+    margin-top: 70px;
+  }
+
+  
+  .formation{
+    flex-direction: column;
+  }
+
+  .formation_texte{
+    margin-top: 70px;
+  }
+
+  .façade_hôtel{
+    height: 300px;
+    width: 200px;
+    margin-left: 250px;
+  }
+}
