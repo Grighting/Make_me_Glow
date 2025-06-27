@@ -263,7 +263,7 @@ video {
 }
 
 /*responsive*/
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 426px) and (min-width: 377px) {
    
   .responsive_body{
     justify-content: center;
@@ -392,7 +392,7 @@ video {
   }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 376px) and (min-width: 322px) {
    
   .responsive_body{
     justify-content: center;
@@ -657,7 +657,7 @@ video {
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 769px) and (min-width: 427) {
    
   .responsive_body{
     justify-content: center;
